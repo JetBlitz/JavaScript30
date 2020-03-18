@@ -68,8 +68,11 @@
     audio.currentTime = 0; // rewind to the start
     audio.play();
     console.log(key);
-
+    //jQuery style:
+    // key.addClass('playing');
     key.classList.add('playing');
+    // key.classList.remove('playing');
+    // key.classList.toggle('playing');
 
     const keys = document.querySelectorAll('.key')
   })
